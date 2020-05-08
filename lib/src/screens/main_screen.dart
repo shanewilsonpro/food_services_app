@@ -60,16 +60,22 @@ class _MainScreenState extends State<MainScreen> {
             title: Text("Orders")
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.shopping_cart),
+            icon: Icon(Icons.favorite),
             title: Text("Favorite")
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.shopping_cart),
+            icon: Icon(Icons.person),
             title: Text("Profile")
           ),
         ],
       ),
       body: currentPage,
+      appBar: currentTabIndex == 1 ? AppBar(
+        title: Text("Your Food Cart", style: TextStyle(color: Colors.black),),
+        centerTitle: true,
+        backgroundColor: Colors.white,
+        elevation: 0.0,
+      ) : null ,
     );
   }
 }
