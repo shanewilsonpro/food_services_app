@@ -6,8 +6,8 @@ final foods = [
     name: "Hot Coffee",
     imagePath: "assets/images/breakfast.jpeg",
     category: "1",
-    price: 22.0,
-    discount: 33.5,
+    price: 22.00,
+    discount: 33.50,
     ratings: 99.0,
   ),
   Food(
@@ -15,8 +15,8 @@ final foods = [
     name: "Grilled Chicken",
     imagePath: "assets/images/lunch.jpeg",
     category: "2",
-    price: 12.0,
-    discount: 34.5,
+    price: 12.00,
+    discount: 34.50,
     ratings: 69.0,
   ),
 ];

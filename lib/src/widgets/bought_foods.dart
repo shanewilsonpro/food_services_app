@@ -115,7 +115,7 @@ class _BoughtFoodState extends State<BoughtFood> {
                   crossAxisAlignment: CrossAxisAlignment.end,
                   children: <Widget>[
                     Text(
-                      widget.price.toString(),
+                      "\$" + widget.price.toString(),
                       style: TextStyle(
                           fontSize: 18.0,
                           fontWeight: FontWeight.bold,

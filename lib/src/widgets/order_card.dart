@@ -32,7 +32,7 @@ class _OrderCardState extends State<OrderCard> {
                         child: Icon(Icons.keyboard_arrow_up,
                             color: Color(0xFFD3D3D3))),
                     Text(
-                      "0",
+                      "1",
                       style: TextStyle(fontSize: 18.0, color: Colors.grey),
                     ),
                     InkWell(

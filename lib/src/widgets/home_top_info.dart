@@ -15,8 +15,8 @@ class HomeTopInfo extends StatelessWidget{
           Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: <Widget>[
-              Text("What would", style: textStyle),
-              Text("you like to eat?", style: textStyle,)
+              Text("Food", style: textStyle),
+              Text("Services", style: textStyle,)
             ],
           ),
           Icon(Icons.notifications_none, size: 30.0, color: Theme.of(context).primaryColor,),
